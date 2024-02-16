@@ -2,6 +2,7 @@ body {
   background-color: whitesmoke;
 }
 
+/* enabling responsiveness across devices */
 @media (max-width: 375px) {
 .main_container {
     display: flex;
@@ -9,6 +10,7 @@ body {
   }
 }
 
+/* main container holding two tiles of the result summary */
 .main_container {
   display: flex;
   justify-content: center;
@@ -16,6 +18,7 @@ body {
   margin-top: 300px;
 }
 
+/* violet-blue tile */
 .first_tile {
   justify-content: center;
   align-items: center;
@@ -33,11 +36,15 @@ body {
 
 }
 
+/* 'your result' text */
 .first_tile h5 {
   font-size: 15px;
   color: rgb(171, 171, 171);
   margin-top: 5px;
 }
+
+/* 'z */
+
 .first_tile h4 {
   font-size: 35px;
   font-weight: 800;
@@ -144,6 +151,9 @@ body {
   color: hsl(234, 85%, 45%);
 }
 
+.over_hundred{
+  color: grey;
+}
 .reaction {
   background-color: hsla(0, 100%, 67%, 0.05);
 }
